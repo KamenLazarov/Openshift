@@ -1,0 +1,1 @@
+watch -n0 'oc get mcp  | grep pool-20 ;  pool=pool-20 ; oc get nodes --selector="node-role.kubernetes.io/$pool="  | grep pool ' 
